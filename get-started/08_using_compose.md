@@ -211,7 +211,7 @@ docker run -d `
           - todo-mysql-data:/var/lib/mysql
     
     volumes:
-      todo-mysql-data:
+      {todo-mysql-data:}
     ```
 
 3. Finally, we only need to specify the environment variables.
